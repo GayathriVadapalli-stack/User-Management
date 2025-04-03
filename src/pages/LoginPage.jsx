@@ -69,7 +69,7 @@ const LoginPage = ({ onLogin }) => {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="👤 Type your username"
+                placeholder="👤 Enter your Email"
                 required
               />
             </div>
