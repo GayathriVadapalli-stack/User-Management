@@ -1,0 +1,228 @@
+body{
+  background-image: url("https://ese2240.seas.upenn.edu/wp-content/uploads/2018/11/background-website-light-blue-wallpapers-background-2-768x432.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.login-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #12c2e9, #c471ed, #f64f59);
+  opacity: 0.85;
+}
+
+.login-card {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  z-index: 1;
+}
+
+.login-card h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  color: #666;
+  font-size: 0.95rem;
+  font-weight: 400;
+  margin-left: 0;
+  margin-bottom: 4px;
+}
+
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input-with-icon input {
+  width: 100%;
+  height: 45px;
+  padding: 0 15px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.95rem;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.input-with-icon input::placeholder {
+  color: #adb5bd;
+}
+
+.input-with-icon input:focus {
+  outline: none;
+  border-bottom-color: #12a5e9;
+  background-color: transparent;
+}
+
+.login-button {
+  width: 100%;
+  height: 45px;
+  background:#12a5e9;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  transition: opacity 0.3s ease;
+}
+
+.login-button:hover {
+  opacity: 0.9;
+}
+
+.login-button:active {
+  opacity: 0.8;
+}
+
+.login-button:focus {
+  outline: none;
+}
+
+.social-login {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.social-login p {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-button:hover {
+  transform: translateY(-2px);
+}
+
+.social-button:focus {
+  outline: none;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.google {
+  background-color: #eaeaea;
+  color: #db4437;
+}
+
+.signup-link {
+  text-align: center;
+}
+
+.signup-link p {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.signup-text {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.signup-text:hover {
+  color: #1976d2;
+}
+
+.login-help {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.login-help p {
+  margin: 0.5rem 0;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.forgot-password {
+  text-align: right;
+  margin: 0.5rem 4px 2rem;
+}
+
+.forgot-password a {
+  color: #666;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+  color: #12a5e9;
+} 
